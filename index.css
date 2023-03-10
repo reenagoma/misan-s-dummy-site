@@ -1,0 +1,136 @@
+html, body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+    width:auto;
+    margin: 20px auto 200px auto;
+    background:black;
+    
+}
+.main{
+    width: 100%;
+    height:auto;
+}
+.navbar{
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    margin: 60px;
+}
+.title{
+    text-align: center;
+    font-size:80px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 5px 30px;
+}
+.links{
+    text-decoration: none;
+     
+}
+.yellow{
+    color:#F4E409;
+}
+.slogan{
+    text-align: center;
+    font-size:20px; 
+}
+.skater-img{
+    border: 20px double #F4E409;
+    width: 100%;
+    height:auto;
+    animation-name: pics;
+    animation-duration: 2s;
+}
+.emails{
+    text-align: center;
+    margin:100px 0 0 100px;
+    color:#F4E409;
+    
+}
+.mail{
+    margin-top: 30px;
+    border:1px solid #F4E409;
+    background: none;
+    width: 260px;
+    height: 50px;
+    padding: 10px;
+    
+    
+}
+.searchbox{
+    font-size: 20px;
+    width: 260px;
+    height: 50px;
+    text-align: center;
+    background: #F4E409;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    color: black;
+    border: none;
+    justify-content: flex-end;
+   
+ 
+    
+}
+.news{
+    
+}
+.shopbtn{
+  background: none;
+  color: #F4E409;
+  font-size: 30px;
+  border:none;
+
+}
+.dropdownshop{
+    position: relative;
+    display: inline-block;
+}
+.shop-content{
+    padding:20px; 
+    display: none;
+    position: absolute;
+    background:#161616;
+    font-size: 20px;
+    min-width: 60px;
+    z-index: 1;
+}
+.shop-content a{
+    display: block;
+    background: #161616;
+    text-decoration: none;
+    color: white;
+}
+.dropdownshop:hover .shop-content{display: block;}
+.shopbtn:hover{color:white;}
+.images:hover{color:white;}
+.news:hover{color:white;}
+.shop-content:hover{color:#F4E409;}
+
+
+
+
+
+
+
+/* CSS CODE FOR GALLERY */
+.mains{
+    background: white;
+}
+.gallery{
+    display: flex;
+   
+}
+.size{
+    width: 20px;
+}
+.searchboxt{
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    background: ;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    color: black;
+    border: none;
+}
+
